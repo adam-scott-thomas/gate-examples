@@ -19,6 +19,6 @@ gate.add_tools([
 
 for mode in [0.0, 0.4, 0.8]:
     result = gate.filter(mode)
-    print(f"\nMode {mode:.1f} ({result.mode_status}):")
+    print(f"\nMode {mode:.1f} ({result.mode_zone}):")
     print(f"  Visible:    {result.visible_names}")
     print(f"  Suppressed: {result.suppressed_names}")

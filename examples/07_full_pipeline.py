@@ -45,7 +45,7 @@ mode = 0.3
 context = {"role": "admin", "human_approved": True}
 result = pg.filter(mode, context)
 
-print(f"Mode: {mode} ({result.mode_status})")
+print(f"Mode: {mode} ({result.mode_zone})")
 print(f"Visible tools: {result.visible_names}")
 
 # 4. Build envelope for a visible tool
