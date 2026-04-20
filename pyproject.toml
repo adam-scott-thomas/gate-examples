@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gate-examples"
+version = "0.1.0"
+description = "Ready-to-run integration examples for Maelstrom Gate — from zero to governed agent in 5 minutes."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "maelstrom-gate>=0.1.0",
+    "gate-policy>=0.1.0",
+]
+
+[project.optional-dependencies]
+all = ["gate-sdk>=0.1.0", "httpx>=0.24.0"]
+dev = ["pytest>=7.0"]
