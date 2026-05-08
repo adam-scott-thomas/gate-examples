@@ -7,7 +7,7 @@ and a deployment agent (strict).
 Run: python examples/09_multi_agent_stub.py
 """
 
-# from maelstrom_gate.core import Gate, Tool
+# from gatekeeper.core import Gate, Tool
 # from gate_policy.integration import PolicyGate
 # from gate_policy.loader import load_policy_file
 #

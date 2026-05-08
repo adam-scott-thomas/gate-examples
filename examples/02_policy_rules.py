@@ -7,7 +7,7 @@ Run: python examples/02_policy_rules.py
 """
 
 from datetime import datetime
-from maelstrom_gate.core import Gate, Tool
+from gatekeeper.core import Gate, Tool
 from gate_policy.integration import PolicyGate
 from gate_policy.models import Policy, Rule, Condition, Effect
 

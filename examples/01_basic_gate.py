@@ -6,7 +6,7 @@ set a mode, see what's visible.
 Run: python examples/01_basic_gate.py
 """
 
-from maelstrom_gate.core import Gate, Tool
+from gatekeeper.core import Gate, Tool
 
 gate = Gate()
 gate.add_tools([

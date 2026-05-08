@@ -8,8 +8,8 @@ Run: python examples/05_envelope_signing.py
 """
 
 from dataclasses import replace
-from maelstrom_gate.core import Tool
-from maelstrom_gate.envelope import build_envelope, verify_envelope
+from gatekeeper.core import Tool
+from gatekeeper.envelope import build_envelope, verify_envelope
 
 SIGNING_KEY = "example-key-do-not-use-in-production"
 read_file = Tool(name="read_file", execution_class="read_only")

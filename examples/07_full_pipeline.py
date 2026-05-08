@@ -11,8 +11,8 @@ Run: python examples/07_full_pipeline.py
 """
 
 from dataclasses import replace
-from maelstrom_gate.core import Gate, Tool
-from maelstrom_gate.envelope import build_envelope, verify_envelope
+from gatekeeper.core import Gate, Tool
+from gatekeeper.envelope import build_envelope, verify_envelope
 from gate_policy.integration import PolicyGate
 from gate_policy.models import Policy, Rule, Condition, Effect
 

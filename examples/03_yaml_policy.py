@@ -7,7 +7,7 @@ Run: python examples/03_yaml_policy.py
 """
 
 from pathlib import Path
-from maelstrom_gate.core import Gate, Tool
+from gatekeeper.core import Gate, Tool
 from gate_policy.integration import PolicyGate
 from gate_policy.loader import load_policy_file
 

@@ -4,7 +4,7 @@
 [![tests](https://img.shields.io/badge/tests-1_passing-brightgreen)]()
 [![license](https://img.shields.io/badge/license-Apache_2.0-green)]()
 
-> Ready-to-run integration examples for Maelstrom Gate. Zero to governed agent
+> Ready-to-run integration examples for Gatekeeper. Zero to governed agent
 > in 9 scripts.
 
 Nine numbered examples, each runnable standalone. Start at `01_basic_gate.py`
@@ -57,8 +57,8 @@ catches it before the spec does.
 
 ## How it fits
 
-Reference for [Maelstrom Gate](https://github.com/adam-scott-thomas/maelstrom-gate).
-Depends on `maelstrom-gate`, `gate-policy`. Optional extras (`all`) pull in
+Reference for [Gatekeeper](https://github.com/adam-scott-thomas/gate-keeper).
+Depends on `gate-keeper`, `gate-policy`. Optional extras (`all`) pull in
 `gate-sdk` and `httpx` for the server examples.
 
 ## License

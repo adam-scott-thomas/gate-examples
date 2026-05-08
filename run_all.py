@@ -11,7 +11,7 @@ EXAMPLES = sorted(Path(__file__).parent.glob("examples/[0-9]*.py"))
 
 def main():
     print("=" * 60)
-    print("  Maelstrom Gate -- Example Suite")
+    print("  Gatekeeper -- Example Suite")
     print("  From zero to governed agent in 7 examples")
     print("=" * 60)
 
