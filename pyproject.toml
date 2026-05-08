@@ -9,10 +9,10 @@ description = "Ready-to-run integration examples for Maelstrom Gate — from zer
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 dependencies = [
-    "gate-keeper>=1.0.0",
+    "gatekeeper-one>=1.0.0",
     "gate-policy>=0.1.0",
 ]
 
 [project.optional-dependencies]
-all = ["gate-sdk>=0.1.0", "httpx>=0.24.0"]
+all = ["gate-sdk-one>=0.1.0", "httpx>=0.24.0"]
 dev = ["pytest>=7.0"]
