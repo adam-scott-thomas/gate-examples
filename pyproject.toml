@@ -14,5 +14,5 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-all = ["gate-sdk-one>=0.1.0", "httpx>=0.24.0"]
+all = ["sdkgate>=0.1.0", "httpx>=0.24.0"]
 dev = ["pytest>=7.0"]
